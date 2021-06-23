@@ -1,0 +1,615 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+article div.card-description{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    position: relative;
+}
+
+.banner{
+    width: 100%;
+    height: auto;
+}
+
+body{
+    margin: 0;
+}
+
+#btn-enviar{
+    margin-right: 20px;
+}
+
+#btn-enviar, #btn-borrar, #btn-login {
+    border: 2px solid #1259c3;
+    background-color: white;
+    color: #1259c3;
+    padding: 5px 10px;
+    font-size: 11px;
+    cursor: pointer;
+    width: 40%;
+    border-radius: 10px;
+  }
+  
+#btn-enviar:hover, #btn-borrar:hover {
+    background-color: #1259c3;
+    color: white;
+}
+
+#btn-login:hover {
+    background-color: #0022AA;
+    color: white;
+}
+
+
+.burger-menu{
+    background-color: #1259c3;;
+    border-radius: 4px;
+    color: white;
+    margin-left:auto;
+    margin-right: auto;
+    width: 50px;
+    height: 50px;
+}
+
+.buscador{
+    padding: 15px 0px 15px 10px;
+    align-self: center;
+}
+
+.campos-formulario{
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.card{
+    background-color: white;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+
+.card-description{
+    border: solid 1px #ebebeb ;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 15px;
+}
+
+.container-footer{
+    padding: 20px;
+}
+
+.delivery-icon{
+    display: block;
+    border-radius: 25px;
+    border: solid 1px #39b54a;
+    color: #39b54a;
+    margin-bottom: 10px;
+    padding: 5px;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+.descuento{
+    color: #39b54a;
+    font-size: 16px;
+    flex-grow: 0.7;
+    margin-top: 3px;
+}
+
+.descripcion{
+    margin-top: 15px;
+    font-size: 16px;
+    width: 100%;
+    opacity: 0;
+}
+
+div>i{
+    padding: 20%;
+}
+
+.encabezado{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.fa-user,.fa-lock{
+    padding: 0px;
+}
+
+.font{
+    font-family: 'Roboto', sans-serif;
+}
+
+footer{
+    margin-top: 15px;
+}
+
+.footer-card{
+    height: auto;
+    width: 80%;
+}
+
+footer>div>i{
+    color: #1259c3;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.footer-size{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.footer-text-title{
+    color: #666;
+}
+
+.footer-size{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.container-footer{
+    width: 100%;
+}
+
+#derechos {
+    padding-left: 15px;
+}
+
+
+.format-heading{
+    text-align: center;
+    padding: 15px;
+}
+
+.format-text{
+    font-size: 16px;
+}
+
+#formulario{
+    margin-left: auto;
+    margin-right: auto ;
+    padding: 20px;
+}
+
+.sign-in-form {
+    margin-left: auto;
+    margin-right: auto ;
+    padding: 20px;
+    width: 55%;
+    text-align: center;
+  }
+
+header {
+    background-color: #EAC926;
+}
+
+header>div>img{
+    padding: 50px;
+    width: 50%;
+}
+
+.icon-margin{
+    margin-right: 10px;
+}
+
+.icon-menu{
+    margin-left: 20px;
+}
+
+#icon-search{
+    background-color: white;
+    margin-left: 5px;
+}
+
+#foto-perfil{
+    width: 90%;
+}
+
+.input-text{
+    max-width: 380px;
+    border: none;
+    margin-top: 5px;
+    height: 30px;
+    width: 90%;
+    text-indent: 10px;
+    border-radius: 10px;
+}
+
+.input-option{
+    margin-right: 8px;
+}
+
+
+.logo{
+    padding: 15px 0px 15px 15px;
+    width: 30%;
+}
+
+.logo, .buscador{
+    flex-grow: 0.5;
+}
+
+main{
+    background-color: #ebebeb;
+    margin: auto;
+    padding-bottom: 20px;
+    width: 90%;
+}
+
+main section h3{
+    margin: 20px 0px 20px 20px;
+    width: 100%;
+}
+
+main section form p i{
+    color: #1259c3;
+    margin-right: 10px;
+}
+
+
+.opciones-campo{
+    margin-bottom: 10px;
+}
+
+.option-1,.option-2{
+    align-self: center;
+}
+
+
+#password-login:hover{
+    background-color: rgb(142, 201, 235);
+}
+
+.perfil-label{
+    width: 100%;
+}
+
+.perfil-usuario{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.precios{
+    font-size: 18px;
+    flex-grow: 0.3;
+    align-self: flex-end;
+}
+
+.responsive{
+    height: auto;
+    width: 100%;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.size-image{
+    height: auto;
+    width: 100%;
+}
+
+#size-search{
+    font-size: 12px;
+    height: auto;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.titulares{
+    color: #666;
+    font-size: 24px;
+}
+
+ul>li>a{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#user-login:hover{
+    background-color: rgb(142, 201, 235);
+}
+
+
+
+/*MEDIA QUERIES*/ 
+
+/* Teléfonos & larger smartphones (481 - 768) */
+@media only screen and (max-width: 768px) {    
+
+
+    .card:hover{
+        box-shadow: 5px 5px 5px #999;
+        transition: box-shadow 1s;
+    }
+
+    .card:hover .descripcion{
+        opacity: 1;
+        transition: 0.5s;
+    }
+
+    .format-heading{
+        text-align: center;
+    }
+
+    nav{
+        display: none;
+    }
+
+    @keyframes carrito{
+        100%{
+            transform: rotateZ(360deg);
+        }
+    }
+
+    .card:hover .fa-truck{
+        animation: carrito 2s infinite;
+    }
+
+
+}
+
+
+/* Medium devices (landscape tablets, laptops, 769px - 1279px) */
+@media only screen and (min-width: 769px) {
+
+    main{
+        width: 90%;
+    }
+
+    .burger-menu{
+        display: none;
+    }
+
+    .buscador{
+        align-self: center;
+    }
+
+    .card{
+        box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
+        width: 45%;
+    }
+
+    
+    .logo,.buscador{
+       width: 33%;
+       flex-grow: 1;
+    }
+
+    .encabezado, .format-heading{
+        width: 33%;
+        flex-grow: 1;
+        align-self: center;
+    }
+
+    .enlaces-menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 15px;
+    }
+
+    .enlaces-account{
+        display: flex;
+        flex-direction: row;
+        padding: 15px;
+    }
+
+    .footer-size{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .container-footer{
+        width: 33%;
+    }
+
+    #derechos {
+        padding-left: 15px;
+    }
+
+
+    .format-text{
+        width: 80%;
+    }
+
+
+
+    /* Padre (encabezado, heading y navbar)*/
+    .flex-header{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .icon-menu{
+        margin-left: 5px;
+    }
+
+    .input-text{
+        width: 100%;
+    }
+
+    li{
+        margin: 0px 10px 0px 10px;
+    }
+
+    main{
+        background-color: #ebebeb;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+
+    .nav-flex{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    section{
+        justify-content: space-around;
+    }
+
+    #size-search{
+        width: 70%;
+        margin-left: 20px;
+    }
+    
+}
+
+/* large devices (larger desktops, 1280+) */
+@media only screen and (min-width: 1200px) {
+
+    .burger-menu{
+        display: none;
+    }
+
+    .card:hover{
+        box-shadow: 5px 5px 5px #999;
+        transition: box-shadow 1s;
+    }
+
+    .card:hover .descripcion{
+        opacity: 1;
+        transition: 0.5s;
+    }
+
+    @keyframes carrito{
+        100%{
+            transform: rotateZ(360deg);
+        }
+    }
+
+    .card:hover .fa-truck{
+        animation: carrito 2s infinite;
+    }
+
+
+    .card{
+        box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
+        width: 20%;
+    }
+
+     
+     .encabezado{
+         width: 50%;
+         align-self: center;
+     }
+ 
+     .enlaces-menu{
+         display: flex;
+         flex-direction: row;
+         justify-content: space-around;
+         padding: 15px;
+     }
+ 
+     .enlaces-account{
+         display: flex;
+         flex-direction: row;
+         padding: 15px;
+     }
+
+     .footer-size{
+         display: flex;
+         flex-wrap: wrap;
+         flex-direction: row;
+         justify-content: space-between;
+         text-align: center;
+     }
+
+     .container-footer{
+         width: 33%;
+     }
+
+     #derechos {
+         padding-left: 15px;
+     }
+
+ 
+     /* Padre (encabezado, heading y navbar)*/
+    .flex-header{
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         justify-content: center;
+     }
+
+    .format-text{
+        width: 80%;
+        margin: 0px;
+    }
+ 
+    .icon-menu{
+         margin-left: 5px;
+    }
+
+    .input-text{
+        width: 100%;
+    }
+ 
+    li{
+         margin-right: 5px;
+    }
+
+    .logo,.buscador{
+        width: 33%;
+        flex-grow: 1;
+    }
+
+    main{
+        background-color: #ebebeb;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+ 
+     .nav-flex{
+         width: 100%;
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+     }
+
+    section{
+        justify-content: space-around;
+    }
+
+    #size-search{
+        width: 70%;
+        margin-left: 20px;
+    }
+    
+} 
